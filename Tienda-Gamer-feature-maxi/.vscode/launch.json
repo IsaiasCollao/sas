@@ -1,0 +1,77 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-VentasApplication<ventas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.apiVentas.ventas.VentasApplication",
+            "projectName": "ventas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-RegistroApplication<registro>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.apiRegistro.registro.RegistroApplication",
+            "projectName": "registro",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TiendaApplication<tienda>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.apiTienda.tienda.TiendaApplication",
+            "projectName": "tienda",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductosApplication<productos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.apiProductos.productos.ProductosApplication",
+            "projectName": "productos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BoletaApplication<boleta>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.apiBoleta.boleta.BoletaApplication",
+            "projectName": "boleta",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-IngresoApplication<ingreso>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.apiIngreso.ingreso.IngresoApplication",
+            "projectName": "ingreso",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsuariosApplication<usuarios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.apiUsuarios.usuarios.UsuariosApplication",
+            "projectName": "usuarios",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
